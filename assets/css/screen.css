@@ -187,6 +187,12 @@ body {
 
 .site-home-header {
     z-index: 1000;
+    .nav li a{
+        color: #fff;
+    }
+    .social-link svg{
+        fill: #fff;
+    }
 }
 
 .site-home-header .site-header-background {
@@ -424,7 +430,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     visibility: hidden;
     position: absolute;
     top: 9px;
-    color: #fff;
+    color: #000;
     font-size: 1.7rem;
     font-weight: 400;
     text-transform: none;
