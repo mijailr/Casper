@@ -1,7 +1,7 @@
 name: Deploy Theme
 on:
-  push:	
-    branches:	
+  push:
+    branches:
       - master
 jobs:
   deploy:
