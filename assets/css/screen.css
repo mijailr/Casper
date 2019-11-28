@@ -271,7 +271,8 @@ body {
     right: 0;
     left: 0;
     z-index: 1000;
-    background: color(var(--darkgrey) l(-5%));
+    background: #FFF;
+    border-bottom: 1px solid #000;
 }
 
 .site-nav {
@@ -386,7 +387,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: block;
     padding: 12px 12px;
-    color: #fff;
+    color: #000;
     opacity: 0.8;
     transition: opacity 0.35s ease-in-out;
 }
@@ -479,7 +480,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .social-link svg {
     height: 1.8rem;
-    fill: #fff;
+    fill: #000;
 }
 
 .social-link-fb svg {
@@ -491,7 +492,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .social-link-wb svg path {
-    stroke: #fff;
+    stroke: #000;
 }
 
 .social-link-rss svg {
